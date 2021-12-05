@@ -22,7 +22,17 @@
 					<a href=""><img src="images/icon1.svg"></a>
 				</li>
 				<li>
-					<a href=""><img src="images/icon2.svg"></a>
+					<a href="javascript:void(0);" onclick="myFunction()">
+						<img src="images/icon2.svg">
+						<ul id="myLinks">
+							<li class="test">Koffie</li>
+							<li class="test">Menu</li>
+							<li class="test">Koffiehuis</li>
+							<li class="test">Carriére</li>
+							<li class="test">Duurzaamheid</li>
+							<li class="test">Over ons</li>
+						</ul>
+					</a>
 				</li>
 			</ul>
 		</nav>
@@ -78,6 +88,23 @@
 		<nav>
 			<ul>
 				<li>
+					<a href="">Over ons<img src="images/pijl.svg"></a>
+				</li>
+				<li>
+					<a href="">Klantenservice<img src="images/pijl.svg"></a>
+				</li>
+				<li>
+					<a href="">Voor het bedrijfsleven<img src="images/pijl.svg"></a>
+				</li>
+				<li>
+					<a href="">Handige links<img src="images/pijl.svg"></a>
+				</li>
+			</ul>
+		</nav>
+
+		<nav>
+			<ul>
+				<li>
 					<a href="">Over ons</a>
 				</li>
 				<li>
@@ -91,8 +118,31 @@
 				</li>
 			</ul>
 		</nav>
+
+		<section>
+			<ul>
+				<li>Webtoegankelijkheid</li>
+				<li>Privacyverklaring</li>
+				<li>Gebruiksvoorwaarden</li>
+				<li>Reglement Winactie</li>
+				<li>Siteoverzicht</li>
+				<li>Cookie Voorkeursinstellingen</li>
+			</ul>
+		</section>
+		<p>© 2019 Starbucks Coffee Company. Alle rechten voorbehouden.</p>
 	</footer>
 	<script src="scripts/script.js"></script>
+
+	<script>
+		function myFunction() {
+		  	var x = document.getElementById("myLinks");
+		  	if (x.style.display === "block") {
+		    	x.style.display = "none";
+		  	} else {
+		    	x.style.display = "block";
+		  	}
+		}
+	</script>
 </body>
 	
 </html>
