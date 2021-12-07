@@ -5,6 +5,22 @@
 
 /* Main styling */
 
+:root {
+    --white: #ffffff;
+    --black: #000000;
+
+    --mainColor: #f7f7f7;
+    --secondaryColor: #f0f0f0;
+
+    --sectionColor1: #e50e35;
+    --sectionColor2: #1e3932;
+
+    --topStripe: #006341;
+    --bottomStripe: #382f2d;
+
+    --burgerMenu: #1e1e1e;
+}
+
 @font-face {
     font-family: "CreateRound";
     src: url("../fonts/CreteRound-Italic.ttf");
@@ -21,7 +37,7 @@ body {
 }
 
 main {
-    color: #ffffff;
+    color: var(--white);
 }
 
 h1 {
@@ -59,12 +75,12 @@ img {
 /* Header + Nav styling */
 
 header nav {
-    background-color: #f7f7f7;
+    background-color: var(--mainColor);
     padding: 20px 0px 20px 0px;
 }
 
 header nav {
-    border-top: 10px solid #006341;
+    border-top: 10px solid var(--topStripe);
 }
 
 header nav:nth-of-type(1) ul {
@@ -106,6 +122,10 @@ ul {
     padding: 0;
 }
 
+header nav:nth-child(2) ul {
+    padding: 0px 0px 0px 100px;
+}
+
 header nav:nth-child(2) {
     display: none;
 }
@@ -121,7 +141,7 @@ a {
 /* Section styling */
 
 main section:nth-of-type(1) {
-    background-color: #e50e35;
+    background-color: var(--sectionColor1);
     display: flex;
     flex-direction: column;
     padding: 30px 10px 30px 10px;
@@ -132,7 +152,7 @@ main section:nth-of-type(1) img{
 }
 
 main section:nth-of-type(2) {
-    background-color: #1e3932;
+    background-color: var(--sectionColor2);
     display: flex;
     flex-direction: column;
     padding: 30px 10px 30px 10px;
@@ -143,7 +163,7 @@ main section:nth-of-type(2) img{
 }
 
 main section:nth-of-type(3) {
-    background-color: #e50e35;
+    background-color: var(--sectionColor1);
     display: flex;
     flex-direction: column;
     padding: 30px 10px 30px 10px;
@@ -156,11 +176,11 @@ main section:nth-of-type(3) img{
 /*Footer styling*/
 
 footer {
-    border-bottom: 10px solid #382F2D;
+    border-bottom: 10px solid var(--bottomStripe);
 }
 
 footer section:first-child {
-    background-color: #f0f0f0;
+    background-color: var(--secondaryColor);
     padding: 35px 15px 35px 0px;
 }
 
@@ -170,12 +190,12 @@ footer section:first-child img {
 }
 
 footer nav {
-    background-color: #f7f7f7;
+    background-color: var(--mainColor);
 }
 
 footer nav ul li {
-    padding: 20px 0px 20px 10px;
-    border-bottom: 2px solid #000000;
+    padding: 20px 0px 20px 20px;
+    border-bottom: 2px solid var(--black);
 }
 
 footer nav ul li a {
@@ -198,7 +218,7 @@ footer nav:nth-child(3) {
 }
 
 footer section:nth-of-type(2) {
-    background-color: #f7f7f7;
+    background-color: var(--mainColor);
 }
 
 footer section:nth-of-type(2) ul li {
@@ -211,11 +231,11 @@ footer section:nth-of-type(2) ul li {
 
 footer p {
     margin: 0;
-    background-color: #f7f7f7;
-    padding: 10px 0px 10px 20px;
+    background-color: var(--mainColor);
+    padding: 10px 0px 20px 20px;
     font-family: "CreateLato";
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     color: #3d3935;
 }
 
@@ -343,11 +363,12 @@ footer p {
 
 
 
-/* Hide the links inside the navigation menu (except for logo/home) */
+
+
 #myLinks {
     display: none;
     position: absolute;
-    background-color: #1e1e1e;
+    background-color: var(--burgerMenu);
     left: 0;
     width: 100%;
     top: 85px;
@@ -356,7 +377,7 @@ footer p {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 14px;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .test {
