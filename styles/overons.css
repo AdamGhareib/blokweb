@@ -1,0 +1,82 @@
+/*Main*/
+
+main {
+	padding: 32px 20px 0px 20px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-family: "CreateLato";
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black);
+}
+
+h3 {
+    font-family: "CreateLato";
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--black);
+    margin: 15px 0px 15px 0px;
+}
+
+h4 {
+    font-family: "CreateLato";
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--tertiaryColor);
+    margin: 0px 0px 10px 0px;
+    text-transform: uppercase;
+}
+
+p {
+	font-family: "CreateLato";
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--black);
+    line-height: 24px;
+}
+
+main p:nth-of-type(1) {
+	margin-top: 70px;
+}
+
+main p:nth-of-type(4) {
+	margin-bottom: 70px;
+}
+
+main nav {
+	background-color: var(--backgroundColor);
+	padding: 10px 12px 10px 12px;
+}
+
+main nav ul li {
+	margin: 0px 0px 14px 0px;
+}
+
+main nav ul li a {
+	font-family: "CreateLato";
+    font-weight: 700;
+    font-size: 14px;
+	color: var(--white);
+	line-height: 18px;
+}
+
+@media screen and (min-width: 768px) {
+	main {
+		max-width: 1360px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+	}
+
+	main nav {
+		align-self: start;
+	}
+
+	main section img {
+		height: 391px;
+		width: 588px;
+	}
+}

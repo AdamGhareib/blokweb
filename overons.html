@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="nl">
+	
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Adam el Ghareib">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Starbucks</title>
+	<link href="styles/style.css" rel="stylesheet">
+	<link href="styles/overons.css" rel="stylesheet">
+	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+	<link rel="stylesheet" href="https://use.typekit.net/pjd0lqe.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html"><img src="images/starbucks_logo.png" alt="starbucks logo"></a>
+				</li>
+				<li>
+					<a href=""><img src="images/icon1.svg" alt="zoek een vestiging"></a>
+				</li>
+				<li>
+					<a href="javascript:void(0);" onclick="myFunction()">
+						<img src="images/icon2.svg" alt="menu">
+						<ul>
+							<li>Koffie</li>
+							<li>Menu</li>
+							<li>Koffiehuis</li>
+							<li>Carriére</li>
+							<li>Duurzaamheid</li>
+							<li>Over ons</li>
+						</ul>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html"><img src="images/starbucks_logo.png" alt="starbucks logo"></a>
+				</li>
+				<li>
+					<a href="">Koffie</a>
+				</li>
+				<li>
+					<a href="">Menu</a>
+				</li>
+				<li>
+					<a href="">Koffiehuis</a>
+				</li>
+				<li>
+					<a href="">Carriére</a>
+				</li>
+				<li>
+					<a href="">Duurzaamheid</a>
+				</li>
+				<li>
+					<a href="overons.html">Over ons</a>
+				</li>
+			</ul>
+		</nav>
+		<h1>Starbucks</h1>
+	</header>
+	<main>
+		<section>
+			<h2>Over ons</h2>
+			<h3>Het gebeurt elke week miljoenen keren - een klant krijgt iets te drinken van een barista van Starbucks - maar elke keer is uniek.</h3>
+			<img src="images/overons.jpg">
+			<p>Het is maar een kort moment – gewoon een hand die over de toonbank een beker aanreikt aan een andere uitgestoken hand.</p>
+			<p>Maar er is connectie.</p>
+			<p>We zorgen dat alles wat we doen in het teken staat van die verbinding – van ons streven naar koffie van de beste kwaliteit ter wereld tot de manier waarop we ons samen met onze klanten en onze omgeving inzetten voor verantwoord zaken doen.</p>
+			<p>Vanaf het begin, met één vestiging bijna veertig jaar geleden, hebben we overal waar we zijn geweest en bij alles wat we aanraken geprobeerd het wat beter te maken dan we het aantroffen.</p>
+		</section>
+		<nav>
+			<h4>Over ons</h4>
+			<ul>
+				<li>
+					<a href="">Onze geschiedenis</a>
+				</li>
+				<li>
+					<a href="">Ons bedrijf</a>
+				</li>
+				<li>
+					<a href="">Onze starbucks-missie</a>
+				</li>
+			</ul>
+		</nav>
+	</main>
+	<footer>
+		<section>
+			<img src="images/icon3.svg" alt="facebook">
+		</section>
+		<nav>
+			<ul>
+				<li>
+					<a href="">Over ons<img src="images/pijl.svg" alt="pijl icoon"></a>
+				</li>
+				<li>
+					<a href="">Klantenservice<img src="images/pijl.svg" alt="pijl icoon"></a>
+				</li>
+				<li>
+					<a href="">Voor het bedrijfsleven<img src="images/pijl.svg" alt="pijl icoon"></a>
+				</li>
+				<li>
+					<a href="">Handige links<img src="images/pijl.svg" alt="pijl icoon"></a>
+				</li>
+			</ul>
+		</nav>
+
+		<nav>
+			<ul>
+				<li>
+					<a href="">Over ons</a>
+				</li>
+				<li>
+					<a href="">Klantenservice</a>
+				</li>
+				<li>
+					<a href="">Voor het bedrijfsleven</a>
+				</li>
+				<li>
+					<a href="">Handige links</a>
+				</li>
+			</ul>
+		</nav>
+
+		<section>
+			<ul>
+				<li>Webtoegankelijkheid</li>
+				<li>Privacyverklaring</li>
+				<li>Gebruiksvoorwaarden</li>
+				<li>Reglement Winactie</li>
+				<li>Siteoverzicht</li>
+				<li>Cookie Voorkeursinstellingen</li>
+			</ul>
+		</section>
+		<p>© 2019 Starbucks Coffee Company. Alle rechten voorbehouden.</p>
+	</footer>
+	<script src="scripts/script.js"></script>
+
+	<script>
+		function myFunction() {
+		  	var x = document.querySelector("header nav:first-of-type ul li:nth-of-type(3) a ul");
+		  	if (x.style.display === "block") {
+		    	x.style.display = "none";
+		  	} else {
+		    	x.style.display = "block";
+		  	}
+		}
+	</script>
+</body>
+	
+</html>
