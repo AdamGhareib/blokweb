@@ -16,21 +16,21 @@
 		<nav>
 			<ul>
 				<li>
-					<a href="index.html"><img src="images/starbucks_logo.png"></a>
+					<a href="index.html"><img src="images/starbucks_logo.png" alt="starbucks logo"></a>
 				</li>
 				<li>
-					<a href=""><img src="images/icon1.svg"></a>
+					<a href=""><img src="images/icon1.svg" alt="zoek een vestiging"></a>
 				</li>
 				<li>
 					<a href="javascript:void(0);" onclick="myFunction()">
-						<img src="images/icon2.svg">
-						<ul id="myLinks">
-							<li class="test">Koffie</li>
-							<li class="test">Menu</li>
-							<li class="test">Koffiehuis</li>
-							<li class="test">Carriére</li>
-							<li class="test">Duurzaamheid</li>
-							<li class="test">Over ons</li>
+						<img src="images/icon2.svg" alt="menu">
+						<ul>
+							<li>Koffie</li>
+							<li>Menu</li>
+							<li>Koffiehuis</li>
+							<li>Carriére</li>
+							<li>Duurzaamheid</li>
+							<li>Over ons</li>
 						</ul>
 					</a>
 				</li>
@@ -39,7 +39,7 @@
 		<nav>
 			<ul>
 				<li>
-					<a href="index.html"><img src="images/starbucks_logo.png"></a>
+					<a href="index.html"><img src="images/starbucks_logo.png" alt="starbucks logo"></a>
 				</li>
 				<li>
 					<a href="">Koffie</a>
@@ -62,42 +62,44 @@
 			</ul>
 		</nav>
 		<h1>Starbucks</h1>
-		<img src="images/starbucksintro.png">
-		<img src="images/starbucksintro2.png">
+		<picture>
+			<source srcset="images/starbucksintro2.png" media="(min-width:768px)">
+			<img src="images/starbucksintro.png" alt="starbucks holiday koffie">
+		</picture>
 	</header>
 	<main>
 		<section>
 			<h2>€8,95 Lunch deal, kies jouw favorieten</h2>
 			<h3>Jouw Starbucks® Menu</h3>
-			<img src="images/starbucks3.png">
+			<img src="images/starbucks3.png" alt="Lunch deal">
 		</section>
 		<section>
 			<h2>Jouw bestelling met liefde bezorgd</h2>
 			<h3>Starbucks® bezorgd</h3>
-			<img src="images/starbucks4.png">
+			<img src="images/starbucks4.png" alt="Uber eats bestelling">
 		</section>
 		<section>
 			<h2>Probeer nu deze winterse favoriet in een compleet nieuw jasje.</h2>
-			<img src="images/starbucks5.png">
+			<img src="images/starbucks5.png" alt="Stroopwafel latte">
 		</section>
 	</main>
 	<footer>
 		<section>
-			<img src="images/icon3.svg">
+			<img src="images/icon3.svg" alt="facebook">
 		</section>
 		<nav>
 			<ul>
 				<li>
-					<a href="">Over ons<img src="images/pijl.svg"></a>
+					<a href="">Over ons<img src="images/pijl.svg" alt="pijl icoon"></a>
 				</li>
 				<li>
-					<a href="">Klantenservice<img src="images/pijl.svg"></a>
+					<a href="">Klantenservice<img src="images/pijl.svg" alt="pijl icoon"></a>
 				</li>
 				<li>
-					<a href="">Voor het bedrijfsleven<img src="images/pijl.svg"></a>
+					<a href="">Voor het bedrijfsleven<img src="images/pijl.svg" alt="pijl icoon"></a>
 				</li>
 				<li>
-					<a href="">Handige links<img src="images/pijl.svg"></a>
+					<a href="">Handige links<img src="images/pijl.svg" alt="pijl icoon"></a>
 				</li>
 			</ul>
 		</nav>
@@ -135,7 +137,7 @@
 
 	<script>
 		function myFunction() {
-		  	var x = document.getElementById("myLinks");
+		  	var x = document.querySelector("header nav:first-of-type ul li:nth-of-type(3) a ul");
 		  	if (x.style.display === "block") {
 		    	x.style.display = "none";
 		  	} else {
