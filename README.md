@@ -44,7 +44,7 @@ https://www.starbucks.nl/
 
 #### Screenshot(s) van de tweede pagina (small screen):
 https://www.starbucks.nl/about-us
-<img src="images/starbucks2.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/starbucks2.png" width="375px" alt="Over ons">
  
 </details>
 
