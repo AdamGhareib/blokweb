@@ -56,16 +56,12 @@ https://www.starbucks.nl/about-us
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets_starbucks.png" width="375px" alt="breakdown van de hele pagina">
 
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+### dynamisch deel:
+<img src="images/breakdownschets2.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
-
 
 
 
@@ -231,7 +227,7 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
+1. w3schools.com
 2. bron 2
 3. ...
 
