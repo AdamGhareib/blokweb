@@ -72,17 +72,18 @@ https://www.starbucks.nl/about-us
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+<img src="images/starbucks8.png" width="375px" alt="voortgang week 2">
+<img src="images/starbucks9.png" width="375px" alt="voortgang week 2">
+In week 2 heb ik alleen de sections gemaakt en gestyled. Daar ben ik tegen geen probleem aangelopen.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Adam:
+Coen:
+Danian:
+Shae:
 
 
 ### Verslag van meeting
@@ -105,26 +106,29 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+<img src="images/starbucks10.png" width="375px" alt="voortgang week 3">
+In week 3 heb ik de mobiele versie helemaal afgemaakt.
+
+<img src="images/starbucks11.png" width="375px" alt="voortgang week 3">
+<img src="images/starbucks12.png" width="375px" alt="voortgang week 3">
+<img src="images/starbucks13.png" width="375px" alt="voortgang week 3">
+Ik heb alleen moeite met de hamburger menu want het is nog niet klikbaar en als ik het klikbaar maakt dan gaat mijn HTML kapot. Dit gebeurt omdat mijn HTML structuur niet helemaal klopt.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Adam: Sections responsive maken.
+Coen:
+Danian:
+Shae:
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Sanne heeft mij geholpen met het fixen van mijn sections.
+- Zelf even verder kijken naar CSS grids
 
 </details>
 
@@ -140,28 +144,10 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### ALT's
+Ik heb geen ALT's aan mijn plaatjes gebruikt. Dus heb ik aan alle images een alt toegevoegd.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Dit zijn weinig bevindingen omdat anderen en ikzelf niks anders hebben gevonden. De contrast van de pagina is goed en de pagina is makkelijk te besturen.
 
 </details>
 
@@ -175,26 +161,28 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+<img src="images/starbucks14.png" width="375px" alt="voortgang week 4">
+In week 4 heb ik de web versie bijna af en responsive. Ik moet alleen nog een paar kleine dingen stijlen.
+
+<img src="images/starbucks15.png" width="375px" alt="voortgang week 4">
+<img src="images/starbucks16.png" width="375px" alt="voortgang week 4">
+Ik heb ook de over ons pagina helemaal gemaakt en het is responsive.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Adam: Checken of mijn pagina responsive genoeg is.
+Coen:
+Danian:
+Shae:
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Yunus vind dat mijn pagina goed in elkaar zit
+- Ik kan de github van Yunus checken voor uitklapbare menu's als ik mijn stijling nog wil verbeteren.
 
 </details>
 
