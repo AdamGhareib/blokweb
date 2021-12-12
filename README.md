@@ -74,14 +74,15 @@ https://www.starbucks.nl/about-us
 ### Stand van zaken
 
 <img src="images/starbucks8.png" width="375px" alt="voortgang week 2">
+
 <img src="images/starbucks9.png" width="375px" alt="voortgang week 2">
 In week 2 heb ik alleen de sections gemaakt en gestyled. Daar ben ik tegen geen probleem aangelopen.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-Adam:
-Coen:
+Adam: Is mijn HTML opbouw goed?
+Coen: Ik wil de footer fixen, maar krijg die tekst niet zo lelijk in het midden gecentreerd etc.
 Danian:
 Shae:
 
@@ -89,10 +90,7 @@ Shae:
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik moet alleen de IMG's en H1 in mijn header plaatsen inplaats van de main.
 
 </details>
 
@@ -111,7 +109,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 In week 3 heb ik de mobiele versie helemaal afgemaakt.
 
 <img src="images/starbucks11.png" width="375px" alt="voortgang week 3">
+
 <img src="images/starbucks12.png" width="375px" alt="voortgang week 3">
+
 <img src="images/starbucks13.png" width="375px" alt="voortgang week 3">
 Ik heb alleen moeite met de hamburger menu want het is nog niet klikbaar en als ik het klikbaar maakt dan gaat mijn HTML kapot. Dit gebeurt omdat mijn HTML structuur niet helemaal klopt.
 
@@ -119,9 +119,9 @@ Ik heb alleen moeite met de hamburger menu want het is nog niet klikbaar en als 
 samen met je groepje opstellen
 
 Adam: Sections responsive maken.
-Coen:
-Danian:
-Shae:
+Coen: Ik wil nog graag de search button (is een <a>) toevoegen, maar zit met een dilemma in de HTML.
+Danian: uitwerking socials gedeelte.
+Shae: Ik wil de formulier beter laten schalen.
 
 
 ### Verslag van meeting
@@ -166,6 +166,7 @@ Dit zijn weinig bevindingen omdat anderen en ikzelf niks anders hebben gevonden.
 In week 4 heb ik de web versie bijna af en responsive. Ik moet alleen nog een paar kleine dingen stijlen.
 
 <img src="images/starbucks15.png" width="375px" alt="voortgang week 4">
+
 <img src="images/starbucks16.png" width="375px" alt="voortgang week 4">
 Ik heb ook de over ons pagina helemaal gemaakt en het is responsive.
 
@@ -175,7 +176,7 @@ samen met je groepje opstellen
 Adam: Checken of mijn pagina responsive genoeg is.
 Coen:
 Danian:
-Shae:
+Shae: Hoe maak ik mijn afbeelding even groot als de orginele afbeelding.
 
 
 ### Verslag van meeting
@@ -198,9 +199,27 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Het namaken van de starbucks website verliep best goed. Het is mij gelukt om het responsive te maken. Alleen vind ik dat er veel tijdsdruk op zat i.v.m. andere vakken en mijn leven daarbuiten. Ik weet dat andere studenten met hetzelfde zitten. Daarbuiten vind ik dit een leuk vak en heb ik nieuwe dingen geleerd zoals "Picture, CSS grids, Flexbox".
+
+<img src="images/starbucks17.png" width="375px" alt="eindresultaat">
+Dit is de stijling van mijn sectie op de index pagina. Gemaakt doormiddel van grids. Dit heb ik deels samen met Sanne gemaakt omdat ik hiermee vast zat.
+
+<img src="images/starbucks18.png" width="375px" alt="eindresultaat">
+
+<img src="images/starbucks19.png" width="375px" alt="eindresultaat">
+
+<img src="images/starbucks20.png" width="375px" alt="eindresultaat">
+Dit is waar ik trots op ben. Ik heb doormiddel van CSS grids de zwarte nav aan de rechterkant gekregen.
+
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="images/starbucks10.png" width="375px" alt="eindresultaat">
+
+<img src="images/starbucks14.png" width="375px" alt="eindresultaat">
+
+<img src="images/starbucks15.png" width="375px" alt="eindresultaat">
+
+<img src="images/starbucks16.png" width="375px" alt="eindresultaat">
 
 </details>
 
@@ -215,8 +234,9 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. w3schools.com
-2. bron 2
-3. ...
+1. https://www.w3schools.com/tags/tag_picture.asp
+2. https://www.a11yproject.com/posts/how-to-hide-content/
+3. https://css-tricks.com/snippets/css/complete-guide-grid/
+4. https://codepen.io/shooft/pen/wvexVgV
 
 </details>
