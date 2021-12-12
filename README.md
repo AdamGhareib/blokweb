@@ -74,8 +74,9 @@ https://www.starbucks.nl/about-us
 ### Stand van zaken
 
 <img src="images/starbucks8.png" width="375px" alt="voortgang week 2">
-
+<br>
 <img src="images/starbucks9.png" width="375px" alt="voortgang week 2">
+<br>
 In week 2 heb ik alleen de sections gemaakt en gestyled. Daar ben ik tegen geen probleem aangelopen.
 
 ### Agenda voor meeting
@@ -106,6 +107,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Stand van zaken
 
 <img src="images/starbucks10.png" width="375px" alt="voortgang week 3">
+<br>
 In week 3 heb ik de mobiele versie helemaal afgemaakt.
 
 ### Agenda voor meeting
@@ -156,11 +158,13 @@ Dit zijn weinig bevindingen omdat anderen en ikzelf niks anders hebben gevonden.
 ### Stand van zaken
 
 <img src="images/starbucks14.png" width="375px" alt="voortgang week 4">
+<br>
 In week 4 heb ik de web versie bijna af en responsive. Ik moet alleen nog een paar kleine dingen stijlen.
-
+<br>
 <img src="images/starbucks15.png" width="375px" alt="voortgang week 4">
-
+<br>
 <img src="images/starbucks16.png" width="375px" alt="voortgang week 4">
+<br>
 Ik heb ook de over ons pagina helemaal gemaakt en het is responsive.
 
 ### Agenda voor meeting
@@ -193,25 +197,27 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 Het namaken van de starbucks website verliep best goed. Het is mij gelukt om het responsive te maken. Alleen vind ik dat er veel tijdsdruk op zat i.v.m. andere vakken en mijn leven daarbuiten. Ik weet dat andere studenten met hetzelfde zitten. Daarbuiten vind ik dit een leuk vak en heb ik nieuwe dingen geleerd zoals "Picture, CSS grids, Flexbox".
-
+<br>
 <img src="images/starbucks17.png" width="375px" alt="eindresultaat">
+<br>
 Dit is de stijling van mijn sectie op de index pagina. Gemaakt doormiddel van grids. Dit heb ik deels samen met Sanne gemaakt omdat ik hiermee vast zat.
 
 <img src="images/starbucks18.png" width="375px" alt="eindresultaat">
-
+<br>
 <img src="images/starbucks19.png" width="375px" alt="eindresultaat">
-
+<br>
 <img src="images/starbucks20.png" width="375px" alt="eindresultaat">
+<br>
 Dit is waar ik trots op ben. Ik heb doormiddel van CSS grids de zwarte nav aan de rechterkant gekregen.
 
 ### Screenshot(s)
 
 <img src="images/starbucks10.png" width="375px" alt="eindresultaat">
-
+<br>
 <img src="images/starbucks14.png" width="375px" alt="eindresultaat">
-
+<br>
 <img src="images/starbucks15.png" width="375px" alt="eindresultaat">
-
+<br>
 <img src="images/starbucks16.png" width="375px" alt="eindresultaat">
 
 </details>
