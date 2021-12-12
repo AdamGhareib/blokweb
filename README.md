@@ -108,13 +108,6 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <img src="images/starbucks10.png" width="375px" alt="voortgang week 3">
 In week 3 heb ik de mobiele versie helemaal afgemaakt.
 
-<img src="images/starbucks11.png" width="375px" alt="voortgang week 3">
-
-<img src="images/starbucks12.png" width="375px" alt="voortgang week 3">
-
-<img src="images/starbucks13.png" width="375px" alt="voortgang week 3">
-Ik heb alleen moeite met de hamburger menu want het is nog niet klikbaar en als ik het klikbaar maakt dan gaat mijn HTML kapot. Dit gebeurt omdat mijn HTML structuur niet helemaal klopt.
-
 ### Agenda voor meeting
 samen met je groepje opstellen
 
