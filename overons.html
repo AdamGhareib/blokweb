@@ -15,33 +15,9 @@
 <body>
 	<header>
 		<nav>
+			<a href="index.html"><img src="images/starbucks_logo.png" alt="starbucks logo"></a>
+			<button aria-hidden="true"></button>
 			<ul>
-				<li>
-					<a href="index.html"><img src="images/starbucks_logo.png" alt="starbucks logo"></a>
-				</li>
-				<li>
-					<a href=""><img src="images/icon1.svg" alt="zoek een vestiging"></a>
-				</li>
-				<li>
-					<a href="javascript:void(0);" onclick="myFunction()">
-						<img src="images/icon2.svg" alt="menu">
-						<ul>
-							<li>Koffie</li>
-							<li>Menu</li>
-							<li>Koffiehuis</li>
-							<li>Carriére</li>
-							<li>Duurzaamheid</li>
-							<li>Over ons</li>
-						</ul>
-					</a>
-				</li>
-			</ul>
-		</nav>
-		<nav>
-			<ul>
-				<li>
-					<a href="index.html"><img src="images/starbucks_logo.png" alt="starbucks logo"></a>
-				</li>
 				<li>
 					<a href="">Koffie</a>
 				</li>
@@ -61,6 +37,7 @@
 					<a href="overons.html">Over ons</a>
 				</li>
 			</ul>
+			<a href="">Een vestiging zoeken</a>
 		</nav>
 		<h1>Starbucks</h1>
 	</header>
@@ -93,6 +70,7 @@
 		<section>
 			<img src="images/icon3.svg" alt="facebook">
 		</section>
+
 		<nav>
 			<ul>
 				<li>
@@ -110,23 +88,6 @@
 			</ul>
 		</nav>
 
-		<nav>
-			<ul>
-				<li>
-					<a href="">Over ons</a>
-				</li>
-				<li>
-					<a href="">Klantenservice</a>
-				</li>
-				<li>
-					<a href="">Voor het bedrijfsleven</a>
-				</li>
-				<li>
-					<a href="">Handige links</a>
-				</li>
-			</ul>
-		</nav>
-
 		<section>
 			<ul>
 				<li>Webtoegankelijkheid</li>
@@ -140,17 +101,6 @@
 		<p>© 2019 Starbucks Coffee Company. Alle rechten voorbehouden.</p>
 	</footer>
 	<script src="scripts/script.js"></script>
-
-	<script>
-		function myFunction() {
-		  	var x = document.querySelector("header nav:first-of-type ul li:nth-of-type(3) a ul");
-		  	if (x.style.display === "block") {
-		    	x.style.display = "none";
-		  	} else {
-		    	x.style.display = "block";
-		  	}
-		}
-	</script>
 </body>
 	
 </html>

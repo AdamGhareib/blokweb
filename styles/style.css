@@ -106,6 +106,11 @@ header nav button {
 
     border: none;
     background: none;
+
+    z-index:100;
+
+    background-image: url(../images/icon2.svg);
+    background-repeat: no-repeat;
 }
 
 ul {
@@ -117,29 +122,6 @@ ul {
 a {
     text-decoration: none;
 }
-
-header nav ul {
-    display: none;
-}
-
-/*header nav:first-of-type ul li:nth-of-type(3) a ul {
-    display: none;
-    position: absolute;
-    background-color: var(--backgroundColor);
-    left: 0;
-    width: 100%;
-    top: 85px;
-
-    font-family: "CreateLato";
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: var(--white);
-}
-
-header nav:first-of-type ul li:nth-of-type(3) a ul li {
-    padding: 15px 0px 15px 25px;
-}*/
 
 /*Footer styling*/
 
@@ -181,10 +163,6 @@ footer nav ul li a img {
     margin-right: 15px;
 }
 
-footer nav:nth-child(3) {
-    display: none;
-}
-
 footer section:nth-of-type(2) {
     background-color: var(--mainColor);
 }
@@ -208,6 +186,41 @@ footer p {
 }
 
 /*media queries*/
+
+@media screen and (max-width: 767px) {
+    header nav.toonMenu ul {
+        transform: translatex(0);
+        display: block;
+    }
+
+    header nav ul {
+        transform: translatey(-100%);
+        transition: .5s;
+
+        display: none;
+        position: absolute;
+        background-color: var(--backgroundColor);
+        left: 0;
+        width: 100%;
+        top: 85px;
+    }
+
+    header nav ul li {
+        padding: 15px 0px 15px 25px;
+    }
+
+    header nav ul li a {
+        font-family: "CreateLato";
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: var(--white);
+    }
+
+    header nav ul li:visited {
+        background-color: #2a8a15 !important;
+    }
+}
 
 @media screen and (min-width: 768px) {
     /*header*/
@@ -284,12 +297,7 @@ footer p {
 
     /*Footer*/
 
-    footer nav:nth-child(2) {
-        display: none;
-    }
-
-    footer nav:nth-child(3) {
-        display: block;
+    footer nav {
         padding: 40px 0px 0px 60px;
     }
 
@@ -303,6 +311,10 @@ footer p {
         margin-left: 0;
         margin-right: auto;
         border: none;
+    }
+
+    footer nav ul li a img {
+        display: none;
     }
 
     footer section:nth-of-type(2) ul {
