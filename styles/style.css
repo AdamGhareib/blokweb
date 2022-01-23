@@ -216,10 +216,6 @@ footer p {
         font-size: 14px;
         color: var(--white);
     }
-
-    header nav ul li:visited {
-        background-color: #2a8a15 !important;
-    }
 }
 
 @media screen and (min-width: 768px) {
@@ -293,6 +289,16 @@ footer p {
 
     header nav ul li:hover a {
         color: inherit;
+    }
+
+    footer nav ul li a:hover {
+        -webkit-filter: grayscale(100%);
+        color: var(--grayScale);
+    }
+
+    footer section ul li:hover {
+        -webkit-filter: grayscale(100%);
+        color: var(--grayScale);
     }
 
     /*Footer*/
