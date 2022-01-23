@@ -139,10 +139,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### ALT's
-Ik heb geen ALT's aan mijn plaatjes gebruikt. Dus heb ik aan alle images een alt toegevoegd.
-
-Dit zijn weinig bevindingen omdat anderen en ikzelf niks anders hebben gevonden. De contrast van de pagina is goed en de pagina is makkelijk te besturen.
+- Ik heb geen ALT's aan mijn plaatjes gebruikt. Dus heb ik aan alle images een alt toegevoegd.
+- Er staat geen tekst achter het locatie teken. Dus heb ik het zinnetje "Een vestiging zoeken" toegevoegd.
+- De contrast van de kleuren zijn goed.
+- De screenreader leest de hele header en footer maar slaat de body over.
+- Er missen nog een aantal states wanneer je over knoppen of tekst hovert. Dus als je op web over de header en footer hovert veranderd de tekst.
+- In plaats van IMG kan ik ook gebruiken maken van de element picture.
 
 </details>
 
